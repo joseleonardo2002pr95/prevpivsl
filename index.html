@@ -370,5 +370,13 @@ fbq('track', 'PageView');
             </div>
         </section>
     </main>
+<script>
+  window.onload = function() {
+    gtag('event', 'VSL', { 
+      'event_category': 'funnel_A', 
+      'page_path': '/prevpivsl' 
+    });
+  };
+</script>
 </body>
 </html>
